@@ -1,0 +1,68 @@
+.container {
+	width: 400px;
+	height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.bg-image {
+	background-image: url(../images/cold.jpg);
+	width: 400px;
+	height: 500px;
+	display: flex;
+	filter: brightness(80%);
+	box-shadow: -20px -20px #0000003d;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.location-box {
+	min-width: 25%;
+	min-height: 25%;
+	background-color: rgb(204 204 204 / 80%);
+	opacity: 0.6;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 25px;
+	font-weight: 800;
+	font-stretch: expanded;
+}
+
+.weather-box {
+	min-width: 35%;
+	min-height: 25%;
+	background-color: rgb(204 204 204 / 80%);
+	opacity: 0.7;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 25px;
+	font-weight: 800;
+	font-stretch: expanded;
+}
+
+.error {
+	min-width: 25%;
+	min-height: 25%;
+	background-color: rgb(204 204 204 / 80%);
+	opacity: 0.6;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 25px;
+	font-weight: 800;
+	font-stretch: expanded;
+	text-align: center;
+}
